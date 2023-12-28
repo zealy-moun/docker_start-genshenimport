@@ -11,6 +11,7 @@
 >前面的区域以后再来探索吧！
 
 #运行docker镜像
+
     docker run -it \
         --name genshen_import \
     zealymoun2000/docker_start_genshen_import:1.0 /bin/bash
