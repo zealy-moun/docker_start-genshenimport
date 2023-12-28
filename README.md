@@ -1,3 +1,6 @@
+
+git clone git@github.com:zealy-moun/docker_start-genshenimport.git
+
 使用DockerFile编译镜像（推荐）
 
 docker build -t zealymoun2000/docker_start_genshen_import:1.0 .
