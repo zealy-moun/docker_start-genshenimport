@@ -1,0 +1,6 @@
+FROM ubuntu:22.04
+RUN apt update && apt install -y gcc
+WORKDIR /home/start_genshen
+COPY . .
+RUN gcc -c start_genshen.cpp start_genshen_impoert
+RUN ./start_genshen_impoert.o
