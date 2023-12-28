@@ -4,6 +4,6 @@ RUN mkdir /home/start_genshen
 WORKDIR /home/start_genshen
 COPY . .
 RUN cd /home/start_genshen
-RUN gcc -c start_genshen.cpp -o genshen
+RUN gcc -c start_genshen.cpp -o genshen.o
 
-CMD ["./genshen"]
+CMD ["./genshen.0"]
