@@ -16,6 +16,7 @@ int main(void){
     int count = 10;
     while(count --){
         printf(".");
+        usleep(100000);
     }
     printf("\n Worring Please check your internetI \n");
     return 0;
